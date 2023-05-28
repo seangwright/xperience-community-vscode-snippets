@@ -1,0 +1,52 @@
+{
+  "name": "xperience-community-vscode-snippets",
+  "version": "1.0.0",
+  "displayName": "Xperience Community: VS Code Snippets",
+  "description": "A collection of VS Code snippets for Xperience by Kentico, distributed as a VS Code extension",
+  "main": "index.js",
+  "scripts": {
+    "package": "vsce package",
+    "publish": "vsce publish",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/seangwright/xperience-community-vscode-snippets.git"
+  },
+  "contributes": {
+    "snippets": [
+      {
+        "language": "csharp",
+        "path": "./src/snippets/csharp-snippets.json"
+      }
+    ]
+  },
+  "keywords": [
+    "xperience by kentico",
+    "kentico",
+    "snippets"
+  ],
+  "pricing": "Free",
+  "icon": "images/Icon.png",
+  "galleryBanner": {
+    "color": "#ffffff",
+    "theme": "light"
+  },
+  "categories": [
+    "Snippets"
+  ],
+  "author": "Sean G. Wright <sean@seangwright.me> (https://www.seangwright.me/)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/seangwright/xperience-community-vscode-snippets/issues"
+  },
+  "homepage": "https://github.com/seangwright/xperience-community-vscode-snippets#readme",
+  "devDependencies": {
+    "@vscode/vsce": "^2.19.0",
+    "prettier": "^2.8.8"
+  },
+  "engines": {
+    "vscode": ">= 1.70.*",
+    "node": ">= 18.*"
+  }
+}
