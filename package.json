@@ -17,7 +17,11 @@
     "snippets": [
       {
         "language": "csharp",
-        "path": "./src/snippets/csharp-snippets.json"
+        "path": "./src/snippets/csharp-admin-snippets.json"
+      },
+      {
+        "language": "csharp",
+        "path": "./src/snippets/csharp-page-builder-snippets.json"
       }
     ]
   },
