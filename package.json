@@ -3,12 +3,12 @@
   "version": "1.0.0",
   "displayName": "Xperience Community: VS Code Snippets",
   "description": "A collection of VS Code snippets for Xperience by Kentico, distributed as a VS Code extension",
-  "main": "index.js",
   "scripts": {
     "package": "vsce package",
     "publish": "vsce publish",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "publisher": "SeanGWright",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/seangwright/xperience-community-vscode-snippets.git"
@@ -42,11 +42,11 @@
   },
   "homepage": "https://github.com/seangwright/xperience-community-vscode-snippets#readme",
   "devDependencies": {
-    "@vscode/vsce": "^2.19.0",
-    "prettier": "^2.8.8"
+    "@vscode/vsce": "2.19.0",
+    "prettier": "2.8.8"
   },
   "engines": {
-    "vscode": ">= 1.70.*",
+    "vscode": "^1.70.0",
     "node": ">= 18.*"
   }
 }
