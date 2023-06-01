@@ -4,9 +4,17 @@ A collection of VS Code snippets for Xperience by Kentico, distributed as a VS C
 
 ![Animation of snippet being used in VS Code](https://raw.githubusercontent.com/seangwright/xperience-community-vscode-snippets/main/images/snippets-workflow.webp)
 
+## Installation
+
+Install the snippet extension through:
+
+- [Visual Studio Marketplace](https://marketplace.visualstudio.com/items?itemName=SeanGWright.xperience-community-vscode-snippets)
+- VS Code's Extensions tray by searching for the extension name `Xperience Community VS Code Snippets`
+- VS Code's Extensions tray by searching for the extension identifier `SeanGWright.xperience-community-vscode-snippets`
+
 ## Snippets
 
-All of the snippets below can be used [using VS Code's snippet intelliense](https://code.visualstudio.com/docs/editor/userdefinedsnippets) or by [replacing an entire file's contents](https://code.visualstudio.com/docs/editor/userdefinedsnippets#_file-template-snippets).
+All of the snippets below can be used [using VS Code's snippet Intelliense](https://code.visualstudio.com/docs/editor/userdefinedsnippets) or by [replacing an entire file's contents](https://code.visualstudio.com/docs/editor/userdefinedsnippets#_file-template-snippets).
 
 All snippet generated content is populated by the file name of the file you are using the snippet in. For example, using the `xpc-page-builder-widget` snippet in a file named `HeroWidget` would generate code with C# classes named `HeroWidget`, `HeroWidgetProperties`, and `HeroWidgetViewModel`.
 
