@@ -1,0 +1,40 @@
+{
+    "Xperience Visibility Condition - C#": {
+        "prefix": ["xpc-visibility-condition"],
+        "description": "An Xperience by Kentico Visibility Condition (C#)",
+        "isFileTemplate": true,
+        "body": [
+            "using Kentico.Xperience.Admin.Base.Forms;",
+            "using Kentico.Xperience.Admin.Base.FormAnnotations;",
+            "using ${1:MySite.Components.Visibility};",
+            "",
+            "namespace ${1}",
+            "",
+            "[VisibilityConditionAttribute(typeof(${TM_FILENAME_BASE}Attribute))]",
+            "public class ${TM_FILENAME_BASE} : VisibilityConditionWithDependency<${TM_FILENAME_BASE}Properties>",
+            "{",
+            "    public override bool Evaluate(IFormFieldValueProvider formFieldValueProvider)",
+            "    {",
+            "        formFieldValueProvider.TryGet<${2}>(Properties.PropertyName, out var dependeeField);",
+            "        return true;",
+            "    }",
+            "}",
+            "",
+            "public class ${TM_FILENAME_BASE}Properties : VisibilityConditionWithDependencyProperties",
+            "{",
+            "",
+            "}",
+            "",
+            "public class ${TM_FILENAME_BASE}Attribute : VisibilityConditionWithDependencyAttribute",
+            "{",
+            "    public ${TM_FILENAME_BASE}Attribute(string propertyName, ${2:DataType} value)",
+            "        : base(propertyName)",
+            "    {",
+            "        Value = value;",
+            "    }",
+            "",
+            "    public ${2} Value { get; set; }",
+            "}"
+        ]
+    }
+}

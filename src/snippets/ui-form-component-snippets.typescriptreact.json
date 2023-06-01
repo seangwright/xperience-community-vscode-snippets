@@ -1,0 +1,39 @@
+{
+    "Xperience Validation Rule - React": {
+        "prefix": ["xpc-ui-form-component-client"],
+        "description": "An Xperience by Kentico UI Form Component (React)",
+        "isFileTemplate": true,
+        "body": [
+            "import React, { useState } from 'react';",
+            "import { FormComponentProps } from '@kentico/xperience-admin-base';",
+            "import { FormItemWrapper } from '@kentico/xperience-admin-components';",
+            "",
+            "interface ${TM_FILENAME_BASE}Props extends ValidationRuleProps {",
+            "    readonly value: ${1:DataType}",
+            "}",
+            "",
+            "export const ${TM_FILENAME_BASE} = (props: FormComponentProps) => {",
+            "",
+            "    const handleOnChange = (value: string) => {",
+            "        if (props.onChange) {",
+            "            props.onChange(value);",
+            "        }",
+            "    };",
+            "",
+            "    return (",
+            "        <FormItemWrapper",
+            "            label={props.label}",
+            "            explanationText={props.explanationText}",
+            "            invalid={props.invalid}",
+            "            validationMessage={props.validationMessage}",
+            "            markAsRequired={props.required}",
+            "            labelIcon={props.tooltip ? 'xp-i-circle' : undefined}",
+            "            labelIconTooltip={props.tooltip}>",
+            "                <input text={props.value} onChange={handleOnChange} />",
+            "        </FormItemWrapper>",
+            "    );",
+            "};",
+            ""
+        ]
+    }
+}
