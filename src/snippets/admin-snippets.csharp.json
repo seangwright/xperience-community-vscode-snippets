@@ -1,7 +1,7 @@
 {
   "Xperience Admin Module": {
     "prefix": ["xpc-admin-module"],
-    "description": "An Xperience by Kentico custom Admin Module",
+    "description": "An Xperience by Kentico custom Admin Module (C#)",
     "isFileTemplate": true,
     "body": [
       "using CMS;",
@@ -35,7 +35,7 @@
   },
   "Xperience Admin Template Page": {
     "prefix": ["xpc-admin-template"],
-    "description": "An Xperience by Kentico custom Admin Template Page",
+    "description": "An Xperience by Kentico custom Admin Template Page (C#)",
     "isFileTemplate": true,
     "body": [
       "using System.Threading.Tasks;",
@@ -49,7 +49,7 @@
       "    name: \"${TM_FILENAME_BASE/([a-zA-Z])(?=[A-Z])/${1} /g}\",",
       "    category: ${6:CustomAdminModule}.CATEGORY,",
       "    icon: Icons.CustomElement,",
-      "    templateName: \"@${1/[\\.]/\//g}/${TM_FILENAME_BASE}}\")]",
+      "    templateName: \"@${1/[\\.]/\//g}/${TM_FILENAME_BASE}\")]",
       "",
       "namespace ${1};",
       "",
@@ -73,7 +73,7 @@
   },
   "Xperience Admin Application Page": {
     "prefix": ["xpc-admin-application"],
-    "description": "An Xperience by Kentico custom Admin Application Page",
+    "description": "An Xperience by Kentico custom Admin Application Page (C#)",
     "isFileTemplate": true,
     "body": [
       "using Kentico.Xperience.Admin.Base;",
@@ -99,7 +99,7 @@
   },
   "Xperience Admin Listing Page": {
     "prefix": ["xpc-admin-listing"],
-    "description": "An Xperience by Kentico custom Admin Listing Page",
+    "description": "An Xperience by Kentico custom Admin Listing Page (C#)",
     "isFileTemplate": true,
     "body": [
       "using Kentico.Xperience.Admin.Base;",

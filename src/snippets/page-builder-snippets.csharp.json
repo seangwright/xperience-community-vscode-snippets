@@ -1,7 +1,7 @@
 {
   "Xperience Page Builder Widget": {
     "prefix": ["xpc-page-builder-widget"],
-    "description": "An Xperience by Kentico Page Builder Widget",
+    "description": "An Xperience by Kentico Page Builder Widget (C#)",
     "isFileTemplate": true,
     "body": [
       "using System.Threading.Tasks;",
@@ -9,7 +9,7 @@
       "using Kentico.Xperience.Admin.Base.FormAnnotations;",
       "using Kentico.PageBuilder.Web.Mvc;",
       "using Microsoft.AspNetCore.Mvc;",
-      "using ${1:MySite.Admin};",
+      "using ${1:MySite.Components.Widgets};",
       "",
       "[assembly: RegisterWidget(",
       "    identifier: ${TM_FILENAME_BASE}.IDENTIFIER,",
@@ -60,7 +60,7 @@
   },
   "Xperience Page Builder Section": {
     "prefix": ["xpc-page-builder-section"],
-    "description": "An Xperience by Kentico Page Builder Section",
+    "description": "An Xperience by Kentico Page Builder Section (C#)",
     "isFileTemplate": true,
     "body": [
       "using System.Threading.Tasks;",
@@ -68,7 +68,7 @@
       "using Kentico.Xperience.Admin.Base.FormAnnotations;",
       "using Kentico.PageBuilder.Web.Mvc;",
       "using Microsoft.AspNetCore.Mvc;",
-      "using ${1:MySite.Admin};",
+      "using ${1:MySite.Components.Sections};",
       "",
       "[assembly: RegisterSection(",
       "    identifier: ${TM_FILENAME_BASE}.IDENTIFIER,",

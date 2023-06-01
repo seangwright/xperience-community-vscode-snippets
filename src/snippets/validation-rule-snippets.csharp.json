@@ -1,12 +1,12 @@
 {
   "Xperience Validation Rule - C#": {
     "prefix": ["xpc-validation-rule"],
-    "description": "An Xperience by Kentico Validation Rule",
+    "description": "An Xperience by Kentico Validation Rule (C#)",
     "isFileTemplate": true,
     "body": [
       "using Kentico.Xperience.Admin.Base.Forms;",
       "using Kentico.Xperience.Admin.Base.FormAnnotations;",
-      "using ${1:MySite.Admin};",
+      "using ${1:MySite.Components.Validation};",
       "",
       "",
       "[assembly: RegisterFormValidationRule(",

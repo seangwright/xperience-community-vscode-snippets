@@ -1,7 +1,7 @@
 {
     "Xperience Validation Rule - React": {
         "prefix": ["xpc-validation-rule-client"],
-        "description": "An Xperience by Kentico Validation Rule - Client function",
+        "description": "An Xperience by Kentico Validation Rule (React)",
         "isFileTemplate": true,
         "body": [
             "import { ValidationRule, ValidationRuleProps } from '@kentico/xperience-admin-base';",
