@@ -121,5 +121,30 @@
       "}",
       ""
     ]
+  },
+  "Xperience Admin Page Extender": {
+    "prefix": ["xpc-admin-page-extender"],
+    "description": "An Xperience by Kentico custom Admin Page Extender (C#)",
+    "isFileTemplate": true,
+    "body": [
+      "using Kentico.Xperience.Admin.Base;",
+      "using Kentico.Xperience.Admin.Base.UIPages;",
+      "using ${1:MySite.Admin};",
+      "",
+      "[assembly: PageExtender(typeof(${TM_FILENAME_BASE}))]",
+      "",
+      "namespace ${1};",
+      "",
+      "public class ${TM_FILENAME_BASE} : PageExtender<${2:ExtendedPageType}>",
+      "{",
+      "    public override Task ConfigurePage()",
+      "    {",
+      "        // modify Page.PageConfiguration;",
+      "",
+      "        return base.ConfigurePage();",
+      "    }",
+      "}",
+      ""
+    ]
   }
 }
