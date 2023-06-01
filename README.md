@@ -2,7 +2,7 @@
 
 A collection of VS Code snippets for Xperience by Kentico, distributed as a VS Code extension
 
-![Animation of snippet being used in VS Code](https://raw.githubusercontent.com/seangwright/xperience-community-vscode-snippets/main/images/snippets-workflow.mp4)
+![Animation of snippet being used in VS Code](https://raw.githubusercontent.com/seangwright/xperience-community-vscode-snippets/main/images/snippets-workflow.webp)
 
 ## Snippets
 
