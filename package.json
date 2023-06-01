@@ -25,11 +25,23 @@
       },
       {
         "language": "csharp",
+        "path": "./src/snippets/ui-form-component-snippets.csharp.json"
+      },
+      {
+        "language": "typescriptreact",
+        "path": "./src/snippets/ui-form-component-snippets.typescriptreact.json"
+      },
+      {
+        "language": "csharp",
         "path": "./src/snippets/validation-rule-snippets.csharp.json"
       },
       {
         "language": "typescriptreact",
         "path": "./src/snippets/validation-rule-snippets.typescriptreact.json"
+      },
+      {
+        "language": "csharp",
+        "path": "./src/snippets/visibility-condition-snippets.csharp.json"
       }
     ]
   },
