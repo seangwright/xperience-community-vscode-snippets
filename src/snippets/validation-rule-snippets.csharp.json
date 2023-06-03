@@ -22,7 +22,7 @@
       "{",
       "    public const string IDENTIFIER = \"${1/[\\.]/-/g}.${TM_FILENAME_BASE/([a-zA-Z])(?=[A-Z])/${1}-/g}\";",
       "",
-      "    public override string ClientRuleName => \"@${1/[\\.]/\//g}/${TM_FILENAME_BASE}}\";",
+      "    public override string ClientRuleName => \"@${1/[\\.]/\\//g}/${TM_FILENAME_BASE}\";",
       "",
       "    public ${TM_FILENAME_BASE}() { }",
       "",
