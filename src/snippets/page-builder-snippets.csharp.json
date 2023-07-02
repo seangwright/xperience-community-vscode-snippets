@@ -5,7 +5,6 @@
     "isFileTemplate": true,
     "body": [
       "using System.Threading.Tasks;",
-      "using Kentico.Xperience.Admin.Base;",
       "using Kentico.Xperience.Admin.Base.FormAnnotations;",
       "using Kentico.PageBuilder.Web.Mvc;",
       "using Microsoft.AspNetCore.Mvc;",
@@ -17,7 +16,7 @@
       "    name: \"${TM_FILENAME_BASE/([a-zA-Z])(?=[A-Z])/${1} /g}\",",
       "    propertiesType: typeof(${TM_FILENAME_BASE}Properties),",
       "    Description = \"A ${TM_FILENAME_BASE/([a-zA-Z])(?=[A-Z])/${1} /g}.\",",
-      "    IconClass = Icons.CustomElement)]",
+      "    IconClass = \"icon-dialog-window-cogwheel\")]",
       "",
       "namespace ${1};",
       "",
@@ -64,7 +63,6 @@
     "isFileTemplate": true,
     "body": [
       "using System.Threading.Tasks;",
-      "using Kentico.Xperience.Admin.Base;",
       "using Kentico.Xperience.Admin.Base.FormAnnotations;",
       "using Kentico.PageBuilder.Web.Mvc;",
       "using Microsoft.AspNetCore.Mvc;",
@@ -76,7 +74,7 @@
       "    name: \"${TM_FILENAME_BASE/([a-zA-Z])(?=[A-Z])/${1} /g}\",",
       "    propertiesType: typeof(${TM_FILENAME_BASE}Properties),",
       "    Description = \"A ${TM_FILENAME_BASE/([a-zA-Z])(?=[A-Z])/${1} /g}.\",",
-      "    IconClass = Icons.CustomElement)]",
+      "    IconClass = \"icon-dialog-window-cogwheel\"))]",
       "",
       "namespace ${1};",
       "",
